@@ -1,0 +1,11 @@
+name = "workers-slack"
+main = "src/index.js"
+compatibility_date = "2022-11-04"
+
+# [triggers]
+# crons = [ "* * * * *" ]
+
+[vars]
+# The necessary secrets are:
+# - SLACK_BOT_ACCESS_TOKEN
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
